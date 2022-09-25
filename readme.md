@@ -18,9 +18,14 @@ subl -a ~/.public_html ~/.public_html/test.txt -n
 #subl -n -a $DIR $1
 ```
 
-- copy shell.sh into .public_html
+- copy shell101.sh into .public_html
 
-
+- install yt-dlp
+```
+sudo apt install curl
+sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+sudo chmod a+rx /usr/local/bin/yt-dlp  # Make executable
+```
 
 - check python3
 - install pipenv
@@ -33,3 +38,13 @@ sudo apt-get install -y task-spooler
 ```
 
 - Download the django_download.zip file
+- inside the folder
+```
+export PIPENV_VENV_IN_PROJECT=1
+pipen install
+```
+
+- run django
+```
+. /home/administrator/django_download/.venv/bin/activate &&  cd /home/administrator/django_download/download && ./manage.py runserver 0.0.0.0:8000
+```
