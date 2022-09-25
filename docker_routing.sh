@@ -4,6 +4,11 @@
 
 # Here 192.168.55.1 is a variable
 # Here wlx00e020306060 is a variable
+# docker_vpn is variable
+# avpn is a variable
+
+# note dockcer dridge name is different than docker network name.
+# iptables required docker_bridge name
 
 # create a new Docker-managed, bridged connection
 # 'avpn' because docker chooses the default route alphabetically
