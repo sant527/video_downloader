@@ -1,0 +1,74 @@
+{
+    "createdBy": "Redirector v3.5.3",
+    "createdAt": "2022-09-25T05:55:52.115Z",
+    "redirects": [
+        {
+            "description": "Example redirect, try going to http://example.com/anywordhere",
+            "exampleUrl": "http://example.com/some-word-that-matches-wildcard",
+            "exampleResult": "https://google.com/search?q=some-word-that-matches-wildcard",
+            "error": null,
+            "includePattern": "http://example.com/*",
+            "excludePattern": "",
+            "patternDesc": "Any word after example.com leads to google search for that word.",
+            "redirectUrl": "https://google.com/search?q=$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "youtube",
+            "exampleUrl": "https://www.youtube.com/watch?v=gRLHr664tXA",
+            "exampleResult": "http://127.0.0.1:8000/run-sh?url=https://www.youtube.com/watch?v=gRLHr664tXA",
+            "error": null,
+            "includePattern": "(.*youtube\\.com\\/watch.*)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "http://127.0.0.1:8000/run-sh?url=$1",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "ytshorts",
+            "exampleUrl": "https://www.youtube.com/shorts/PiJmmUrRt30",
+            "exampleResult": "http://127.0.0.1:8000/run-sh?url=https://www.youtube.com/shorts/PiJmmUrRt30",
+            "error": null,
+            "includePattern": "(.*youtube\\.com\\/shorts\\/.*)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "http://127.0.0.1:8000/run-sh?url=$1",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "xv",
+            "exampleUrl": "https://www.xvideos.com/video7049739/meherpur",
+            "exampleResult": "http://127.0.0.1:8000/run-sh?url=https://www.xvideos.com/video7049739/meherpur",
+            "error": null,
+            "includePattern": "(https://www.xvideos.com/video[0-9]+/.*)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "http://127.0.0.1:8000/run-sh?url=$1",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        }
+    ]
+}
