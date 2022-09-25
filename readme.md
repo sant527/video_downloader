@@ -50,3 +50,10 @@ pipen install
  ```
 
 - If one wants multiple interfaces. use docker_routing.sh (to choose the internet for yt-dlp command)
+
+
+# install mpv
+
+
+# also need youtube-cookies.txt file
+
