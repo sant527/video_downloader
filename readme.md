@@ -18,6 +18,7 @@ subl -a ~/.public_html ~/.public_html/test.txt -n
 #subl -n -a $DIR $1
 ```
 
+- copy shell.sh into .public_html
 
 
 
