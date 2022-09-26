@@ -24,9 +24,9 @@ today=`date +"%Y-%m-%dT%H__%M__%S"`
 
 #format='worstvideo[height>=1000]+worstaudio/bestvideo+worstaudio'
 
-format='bestvideo+worstaudio'
+#format='bestvideo+worstaudio'
 
-#format='worstvideo[height>=1000]+bestaudio/best'
+format='worstvideo[height>=1000]+bestaudio/best'
 
 #format='worstvideo[height>=1000]'
 
