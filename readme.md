@@ -48,7 +48,7 @@ pipenv install django-cors-headers
 
 - run django
 ```
- . /home/santhosh/.public_html/django_download/.venv/bin/activate &&  cd /home/santhosh/.public_html/django_download/download && ./manage.py runserver 0.0.0.0:8000
+ . /home/simha/.public_html/django_download/.venv/bin/activate &&  cd /home/simha/.public_html/django_download/download && ./manage.py runserver 0.0.0.0:8000
  ```
 
 - If one wants multiple interfaces. use docker_routing.sh (to choose the internet for yt-dlp command)
