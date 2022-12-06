@@ -41,7 +41,7 @@ sudo apt-get install -y task-spooler
 - inside the folder
 ```
 export PIPENV_VENV_IN_PROJECT=1
-pipen install
+pipenv install
 ```
 
 - run django
